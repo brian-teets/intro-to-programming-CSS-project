@@ -1,0 +1,62 @@
+.animal-name{
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
+  font-size: xx-large;
+  color: goldenrod;
+    }
+.fact{
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: medium;
+  color: black;
+    }
+.list {
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-weight: normal;
+  color: black;
+    }
+.labels {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  color: black;
+}
+.description {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-weight: normal;
+  color: black;
+}
+#bigbox {
+  border: 2px solid gray;
+  padding: 5px;
+  margin: auto;
+  width: 350px;
+  height: 780px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.namebox {
+  width: 340px;
+  height: .5em;
+  border: 5px;
+  padding: inherit;
+  text-align: left;
+  }
+.bottombox {
+  border: 2px solid gray;
+  padding: 5px;
+  width: 345px;
+  height: 400px;
+}
+.picturebox {
+  border: 5px;
+  padding: 5px;
+  width: 350px;
+  height: 225px;
+  text-align: center;
+}
